@@ -1,0 +1,2 @@
+allow kernel lge_touch_sysfs:file relabelto;
+allow kernel vibe_dev:file relabelto;
