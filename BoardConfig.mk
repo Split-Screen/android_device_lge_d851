@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# inherit from the proprietary version
--include vendor/lge/d851/BoardConfigVendor.mk
-
 LOCAL_PATH := device/lge/d851
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
@@ -187,6 +184,3 @@ WIFI_DRIVER_FW_PATH_P2P := "/system/etc/firmware/fw_bcmdhd.bin"
 WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/bcmdhd/parameters/firmware_path"
 WIFI_DRIVER_FW_PATH_STA := "/system/etc/firmware/fw_bcmdhd.bin"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
-
-# inherit from the proprietary version
--include vendor/lge/d851/BoardConfigVendor.mk
