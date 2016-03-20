@@ -100,7 +100,7 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-    device/lge  :=/configs/mixer_paths_bcm.xml:system/etc/mixer_paths.xml
+    $(LOCAL_PATH)/configs/mixer_paths_bcm.xml:system/etc/mixer_paths.xml
 
 # NFC
 PRODUCT_COPY_FILES += \
