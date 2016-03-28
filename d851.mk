@@ -125,6 +125,7 @@ $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bc
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 PRODUCT_PACKAGES += \
+    LGDoze \
     com.qualcomm.location \
     com.qualcomm.services.location \
     TimeService \
