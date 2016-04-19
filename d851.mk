@@ -232,6 +232,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/etc/init.d/01dalvik:system/etc/init.d/01dalvik
 
+# BSOD Killer
+PRODUCT_COPY_FILES += \
+    device/lge/d851/prebuilt/etc/init.d/89bsod:system/etc/init.d/89bsod
+
 # Time services
 PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/bin/time_daemon:system/bin/time_daemon \
