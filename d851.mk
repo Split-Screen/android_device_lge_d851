@@ -228,6 +228,10 @@ PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     device/lge/d851/prebuilt/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so
 
+# Dalvik-Hack
+PRODUCT_COPY_FILES += \
+    device/lge/d851/prebuilt/etc/init.d/01dalvik:system/etc/init.d/01dalvik
+
 # Time services
 PRODUCT_COPY_FILES += \
     device/lge/d851/prebuilt/bin/time_daemon:system/bin/time_daemon \
